@@ -1,0 +1,14 @@
+@import '~bulma';
+@import '~buefy/src/scss/buefy';
+
+@import './flex.scss';
+
+body, html {
+  height: 100%;
+  background: #f7f7f9;
+}
+
+.scrollable {
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
